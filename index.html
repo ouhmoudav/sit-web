@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feminine Energy Bible - Exclusive Limited Offer</title>
+<link href="https://fonts.googleapis.com/css2?family=Marcellus&family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --primary: #e83e8c;
+    --primary-dark: #c2185b;
+    --secondary: #f8bbd0;
+    --accent: #ffeb3b;
+    --text: #3a3a3a;
+    --light-text: #888;
+    --background: linear-gradient(135deg, #fff9f9 0%, #fff0f5 100%);
+    --white: #fff;
+    --shadow: 0 20px 50px rgba(0,0,0,0.15);
+    --transition: all 0.3s ease;
+    --gold: linear-gradient(135deg, #f5d742 0%, #f3bb3a 100%);
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background: var(--background);
+    color: var(--text);
+    min-height: 100vh;
+    padding: 20px;
+    overflow-x: hidden;
+  }
+  
+  .container {
+    max-width: 500px;
+    margin: 30px auto;
+    background: var(--white);
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    padding: 40px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.3);
+  }
+  
+  .container::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(232,62,140,0.1) 0%, rgba(232,62,140,0) 70%);
+    transform: rotate(30deg);
+    z-index: -1;
+  }
+  
+  .ribbon {
+    position: absolute;
+    top: 15px;
+    right: -45px;
+    width: 180px;
+    padding: 8px 0;
+    background: var(--gold);
+    color: #8a6d0b;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    transform: rotate(45deg);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    z-index: 10;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  h1 {
+    font-family: 'Marcellus', serif;
+    color: var(--primary);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  
+  h1::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+    background: linear-gradient(90deg, transparent, var(--primary), transparent);
+  }
+  
+  .subtitle {
+    text-align: center;
+    font-weight: 300;
+    margin-bottom: 30px;
+    font-size: 1.2rem;
+    color: var(--light-text);
+  }
+  
+  .product-container {
+    position: relative;
+    margin: 30px auto;
+    width: 80%;
+  }
+  
+  .product-image {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border: 5px solid var(--white);
+    position: relative;
+    z-index: 2;
+    transform: perspective(1000px) rotateY(-10deg);
+  }
+  
+  .product-shadow {
+    position: absolute;
+    bottom: -20px;
+    left: 10%;
+    width: 80%;
+    height: 30px;
+    background: radial-gradient(ellipse at center, rgba(0,0,0,0.4) 0%, transparent 70%);
+    filter: blur(10px);
+    z-index: 1;
+    transform: rotateX(80deg) scale(0.9);
+    opacity: 0.7;
+  }
+  
+  .testimonial {
+    background: rgba(255,255,255,0.8);
+    padding: 25px;
+    border-radius: 15px;
+    margin: 30px 0;
+    position: relative;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    border-left: 5px solid var(--primary);
+  }
+  
+  .testimonial::before {
+    content: '"';
+    position: absolute;
+    top: -30px;
+    left: 15px;
+    font-size: 80px;
+    color: rgba(232,62,140,0.1);
+    font-family: serif;
+    line-height: 1;
+    z-index: 0;
+  }
+  
+  .testimonial-text {
+    position: relative;
+    z-index: 1;
+    font-style: italic;
+    line-height: 1.6;
+  }
+  
+  .testimonial-author {
+    text-align: right;
+    font-weight: 600;
+    color: var(--primary);
+    margin-top: 15px;
+    font-size: 0.9rem;
+  }
+  
+  .benefits {
+    margin: 30px 0;
+  }
+  
+  .benefit-item {
+    background: var(--secondary);
+    margin: 15px 0;
+    padding: 20px;
+    border-radius: 12px;
+    color: var(--primary-dark);
+    font-weight: 600;
+    position: relative;
+    padding-left: 60px;
+    transition: var(--transition);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    overflow: hidden;
+  }
+  
+  .benefit-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: var(--primary);
+  }
+  
+  .benefit-item::after {
+    content: '✓';
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 30px;
+    background: var(--primary);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  
+  .bonus-badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: var(--gold);
+    color: #8a6d0b;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.8rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    z-index: 2;
+  }
+  
+  .bonus-box {
+    background: linear-gradient(135deg, #f8f4ff 0%, #f0e5ff 100%);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 30px 0;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  }
+  
+  .bonus-box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5px;
+    height: 100%;
+    background: #9c64ff;
+  }
+  
+  .bonus-title {
+    color: #9c64ff;
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+  
+  .bonus-content {
+    font-size: 0.95rem;
+  }
+  
+  .urgency-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 30px 0;
+    box-shadow: 0 10px 30px rgba(232,62,140,0.3);
+  }
+  
+  .urgency-text {
+    font-weight: 300;
+    font-size: 0.9rem;
+  }
+  
+  .countdown-timer {
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: monospace;
+    text-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  }
+  
+  .stock-counter {
+    background: rgba(0,0,0,0.2);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 0.9rem;
+    font-weight: 600;
+  }
+  
+  .pricing {
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+  }
+  
+  .original-price {
+    text-decoration: line-through;
+    color: var(--light-text);
+    font-size: 1.3rem;
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  .original-price::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: var(--primary);
+    transform: rotate(-5deg);
+  }
+  
+  .current-price {
+    color: var(--primary);
+    font-size: 2.5rem;
+    font-weight: 700;
+    display: inline-block;
+  }
+  
+  .discount-badge {
+    background: var(--gold);
+    color: #8a6d0b;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 700;
+    font-size: 0.9rem;
+    display: inline-block;
+    margin-top: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+  }
+  
+  .cta-button {
+    display: block;
+    width: 100%;
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+    color: var(--white);
+    font-size: 1.3rem;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+    text-decoration: none;
+    margin: 30px 0;
+    transition: var(--transition);
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 10px 20px rgba(232,62,140,0.4);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 700;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+  
+  .cta-button::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+    transition: 0.6s;
+  }
+  
+  .cta-button:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px rgba(232,62,140,0.6);
+  }
+  
+  .cta-button:hover::before {
+    left: 100%;
+  }
+  
+  .guarantee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+    color: var(--light-text);
+    font-size: 0.9rem;
+    position: relative;
+  }
+  
+  .guarantee svg {
+    margin-right: 10px;
+    fill: var(--primary);
+  }
+  
+  .footer-text {
+    font-size: 0.8rem;
+    color: var(--light-text);
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* 3D Button Effect */
+  .cta-button {
+    transform: perspective(500px) rotateX(15deg);
+    transform-origin: bottom;
+  }
+  
+  /* Responsive Adjustments */
+  @media (max-width: 600px) {
+    .container {
+      padding: 25px;
+    }
+    
+    h1 {
+      font-size: 2rem;
+    }
+    
+    .product-container {
+      width: 90%;
+    }
+    
+    .countdown-timer {
+      font-size: 1.5rem;
+    }
+    
+    .current-price {
+      font-size: 2rem;
+    }
+    
+    .urgency-container {
+      flex-direction: column;
+      text-align: center;
+    }
+    
+    .stock-counter {
+      margin-top: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="ribbon">LIMITED STOCK</div>
+    
+    <h1>Feminine Energy Bible</h1>
+    <p class="subtitle">Awaken Your Divine Feminine Power & Magnetic Attraction</p>
+    
+    <div class="product-container">
+      <img src="https://public-files.gumroad.com/puhwp31gi0cy2y9wedz3it7ug9na" alt="Feminine Energy Bible" class="product-image">
+      <div class="product-shadow"></div>
+    </div>
+    
+    <div class="testimonial">
+      <p class="testimonial-text">"This guide completely transformed my relationships and self-confidence. After just one week, I noticed men responding to me differently. I've never felt more in tune with my feminine essence!"</p>
+      <div class="testimonial-author">- Sarah M., Verified Buyer</div>
+    </div>
+    
+    <p>Are you feeling drained, disconnected, or constantly overwhelmed in today's fast-paced world?</p>
+    <p>This <strong>comprehensive guide</strong> reveals the secrets to reclaiming your natural feminine energy, boosting your magnetic attraction, and creating the life you truly desire.</p>
+    
+    <div class="benefits">
+      <div class="benefit-item">Understand the true essence of feminine vs masculine energy dynamics</div>
+      <div class="benefit-item">Shift from constant "doing" to joyful "being" without guilt</div>
+      <div class="benefit-item">Simple daily rituals to awaken your feminine power</div>
+      <div class="benefit-item">Boost your natural attractiveness in love, career, and social life</div>
+      <div class="benefit-item">Heal feminine wounds and release limiting patterns holding you back</div>
+      <div class="benefit-item">Create deeper, more fulfilling relationships effortlessly</div>
+      <div class="benefit-item">Master the art of feminine radiance and magnetism</div>
+    </div>
+    
+    <div class="bonus-box">
+      <div class="bonus-badge">BONUS</div>
+      <div class="bonus-title">FREE GIFT WITH PURCHASE TODAY!</div>
+      <p class="bonus-content">Get instant access to our exclusive <strong>"7-Day Feminine Energy Activation"</strong> audio course (valued at $29) absolutely free when you order now!</p>
+    </div>
+    
+    <div class="urgency-container">
+      <div>
+        <div class="urgency-text">OFFER EXPIRES IN:</div>
+        <div class="countdown-timer" id="countdown">23:59:59</div>
+      </div>
+      <div class="stock-counter" id="stock-counter">Only 19 left!</div>
+    </div>
+    
+    <div class="pricing">
+      <span class="original-price">$29.99</span>
+      <span class="current-price">$14.99</span>
+      <div class="discount-badge">SAVE 50% TODAY!</div>
+    </div>
+    
+    <a href="https://gumroad.com/checkout?_gl=1*suvuw0*_ga*MTg0OTYxNDQ5LjE3NTE4MzAyNTE.*_ga_6LJN6D94N6*czE3NTQ5ODgwNjckbzYyJGcxJHQxNzU0OTg4MDczJGo1NCRsMCRoMA" class="cta-button" id="cta-button">GET INSTANT ACCESS NOW</a>
+    
+    <div class="guarantee">
+      <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10 0C4.48 0 0 4.48 0 10s4.48 10 10 10 10-4.48 10-10S15.52 0 10 0zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm4.59-12.42L8 12.17l-2.59-2.58L4 11l4 4 8-8z"/>
+      </svg>
+      30-Day Money Back Guarantee - No Questions Asked
+    </div>
+    
+    <p class="footer-text">© 2025 ouhmouda.v -
+Powered by loveunlocked.</p>
+  </div>
+
+  <script>
+    // Enhanced Countdown Timer with urgency
+    function updateCountdown() {
+      const now = new Date();
+      const end = new Date();
+      end.setHours(23, 59, 59, 999); // Today midnight
+      
+      const diff = end - now;
+      
+      if (diff <= 0) {
+        document.getElementById('countdown').textContent = "OFFER EXPIRED!";
+        document.getElementById('cta-button').textContent = "SALE ENDED";
+        document.getElementById('cta-button').style.opacity = "0.7";
+        document.getElementById('cta-button').style.pointerEvents = "none";
+        return;
+      }
+      
+      const hours = Math.floor(diff / (1000 * 60 * 60));
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+      
+      // Add visual urgency when under 1 hour
+      if (hours === 0) {
+        const countdownElement = document.getElementById('countdown');
+        countdownElement.style.color = minutes < 30 ? '#ffeb3b' : 'white';
+        
+        if (minutes < 5) {
+          countdownElement.style.fontWeight = '900';
+        }
+      }
+      
+      document.getElementById('countdown').textContent = 
+        `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:${seconds.toString().padStart(2, '0')}`;
+    }
+    
+    // Update every second
+    updateCountdown();
+    setInterval(updateCountdown, 1000);
+    
+    // Limited stock counter with real-time updates
+    let stockCount = 12;
+    const stockElement = document.getElementById('stock-counter');
+    
+    function updateStockCounter() {
+      // Randomly decrease stock every 30-90 seconds
+      const randomTime = Math.floor(Math.random() * 60000) + 30000;
+      
+      setTimeout(() => {
+        if (stockCount > 0) {
+          stockCount -= 1;
+          stockElement.textContent = `Only ${stockCount} left!`;
+          
+          // Add visual effect when stock is low
+          if (stockCount < 5) {
+            stockElement.style.backgroundColor = 'rgba(255,0,0,0.2)';
+            stockElement.style.fontWeight = '700';
+          }
+          
+          // Change message when very low
+          if (stockCount === 1) {
+            stockElement.textContent = "LAST COPY!";
+          }
+          
+          // Disable button when sold out
+          if (stockCount === 0) {
+            document.getElementById('cta-button').textContent = "SOLD OUT";
+            document.getElementById('cta-button').style.opacity = "0.7";
+            document.getElementById('cta-button').style.pointerEvents = "none";
+            return;
+          }
+        }
+        
+        updateStockCounter();
+      }, randomTime);
+    }
+    
+    updateStockCounter();
+    
+    // 3D Button Effect - Depth on hover
+    const ctaButton = document.getElementById('cta-button');
+    
+    ctaButton.addEventListener('mouseenter', function() {
+      this.style.transform = 'perspective(500px) rotateX(25deg)';
+    });
+    
+    ctaButton.addEventListener('mouseleave', function() {
+      this.style.transform = 'perspective(500px) rotateX(15deg)';
+    });
+  </script>
+</body>
+</html>
